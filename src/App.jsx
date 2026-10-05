@@ -3,7 +3,7 @@ import './App.css'
 const principles = [
   {
     id: 'confidencialidad',
-    number: '01',
+    number: '1',
     name: 'Confidencialidad',
     question: '¿Quién puede verlo?',
     description:
@@ -19,7 +19,7 @@ const principles = [
   },
   {
     id: 'integridad',
-    number: '02',
+    number: '2',
     name: 'Integridad',
     question: '¿Sigue siendo correcto?',
     description:
@@ -34,7 +34,7 @@ const principles = [
   },
   {
     id: 'disponibilidad',
-    number: '03',
+    number: '3',
     name: 'Disponibilidad',
     question: '¿Puedo acceder cuando lo necesito?',
     description:
@@ -110,9 +110,11 @@ function App() {
               </defs>
               <path d="M200 28 25 314h350L200 28Z" />
             </svg>
-            <div className="diagram-center">
-              <span className="center-spark" aria-hidden="true">✳</span>
-              <span>Tu<br />información</span>
+            <div className="diagram-center" aria-label="Información protegida">
+              <svg className="center-shield" viewBox="0 0 48 48" fill="none" role="img" aria-label="Escudo">
+                <path d="M24 4 40 10v12c0 10-6.5 17-16 22C14.5 39 8 32 8 22V10l16-6Z" />
+                <path d="m17 24 5 5 10-11" />
+              </svg>
             </div>
             <div className="diagram-label label-confidentiality">
               <span className="mini-icon lock-mini" aria-hidden="true">⌑</span>
@@ -182,7 +184,7 @@ function App() {
           </div>
           <div className="scenario-list">
             <div className="scenario-item">
-              <span className="scenario-icon scenario-lock" aria-hidden="true">01</span>
+              <span className="scenario-icon scenario-lock" aria-hidden="true">1</span>
               <div>
                 <h3>Confidencialidad</h3>
                 <p>Solo tú y tu equipo médico pueden consultarlo.</p>
@@ -190,7 +192,7 @@ function App() {
               <span className="scenario-check" aria-label="Protegido">✓</span>
             </div>
             <div className="scenario-item">
-              <span className="scenario-icon scenario-integrity" aria-hidden="true">02</span>
+              <span className="scenario-icon scenario-integrity" aria-hidden="true">2</span>
               <div>
                 <h3>Integridad</h3>
                 <p>Nadie cambia los resultados sin permiso.</p>
@@ -198,7 +200,7 @@ function App() {
               <span className="scenario-check" aria-label="Protegido">✓</span>
             </div>
             <div className="scenario-item">
-              <span className="scenario-icon scenario-availability" aria-hidden="true">03</span>
+              <span className="scenario-icon scenario-availability" aria-hidden="true">3</span>
               <div>
                 <h3>Disponibilidad</h3>
                 <p>Tu médico puede verlo durante la consulta.</p>
@@ -220,15 +222,15 @@ function App() {
             </div>
             <div className="habit-grid">
               <div className="habit">
-                <span className="habit-number">01</span>
+                <span className="habit-number">1</span>
                 <p>Usa contraseñas distintas y no las compartas.</p>
               </div>
               <div className="habit">
-                <span className="habit-number">02</span>
+                <span className="habit-number">2</span>
                 <p>Revisa los datos antes de enviarlos o modificarlos.</p>
               </div>
               <div className="habit">
-                <span className="habit-number">03</span>
+                <span className="habit-number">3</span>
                 <p>Guarda una copia de tus archivos importantes.</p>
               </div>
             </div>

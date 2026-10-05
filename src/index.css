@@ -1,7 +1,7 @@
 :root {
   font-family: "Pixelify Sans", "Courier New", monospace;
-  color: #241a37;
-  background: #fbf9ff;
+  color: #fbf7ff;
+  background: #1b102c;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -29,11 +29,11 @@ html {
 
 body {
   background:
-    radial-gradient(ellipse at 12% 7%, rgb(174 72 242 / 19%), transparent 34%),
-    radial-gradient(ellipse at 87% 17%, rgb(255 78 147 / 18%), transparent 33%),
-    radial-gradient(ellipse at 18% 48%, rgb(255 119 116 / 13%), transparent 35%),
-    radial-gradient(ellipse at 90% 73%, rgb(255 156 65 / 17%), transparent 36%),
-    linear-gradient(125deg, #f6eaff 0%, #fff0f5 43%, #fff0de 100%);
+    radial-gradient(ellipse at 12% 7%, rgb(155 72 242 / 34%), transparent 36%),
+    radial-gradient(ellipse at 87% 17%, rgb(225 55 143 / 30%), transparent 35%),
+    radial-gradient(ellipse at 18% 48%, rgb(230 89 121 / 23%), transparent 38%),
+    radial-gradient(ellipse at 90% 73%, rgb(242 127 49 / 29%), transparent 38%),
+    linear-gradient(125deg, #211333 0%, #30152f 43%, #3b2026 100%);
   background-attachment: fixed;
   margin: 0;
   min-width: 320px;

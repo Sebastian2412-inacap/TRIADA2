@@ -945,6 +945,196 @@
   }
 }
 
+.topbar {
+  border-bottom-color: rgb(255 255 255 / 14%);
+}
+
+.brand {
+  color: #fbf7ff;
+}
+
+.topbar nav a,
+.back-top {
+  color: #e4d8f2;
+}
+
+.topbar nav a:hover,
+.back-top:hover {
+  color: #ffc28e;
+}
+
+.hero h1 {
+  color: #fff8ff;
+}
+
+.hero-description,
+.hero-note,
+.section-intro {
+  color: #e1d5ed;
+}
+
+.hero-note strong {
+  color: #fff8ff;
+}
+
+.hero-note {
+  border-left-color: #b77aff;
+}
+
+.note-icon {
+  color: #d7acff;
+}
+
+.principles-section {
+  border-top-color: rgb(255 255 255 / 17%);
+}
+
+.principles-section .section-eyebrow,
+.hero .eyebrow {
+  color: #e1c7ff;
+}
+
+.diagram-caption {
+  color: #eee2fa;
+}
+
+.principle-card {
+  color: var(--ink);
+}
+
+.footer > p {
+  color: #d4c6e2;
+}
+
+.footer-brand .brand-mark span {
+  filter: brightness(1.2);
+}
+
+.diagram-label,
+.principle-card,
+.scenario-list {
+  background: #30223f;
+  border-color: #59466b;
+  color: #fff8ff;
+}
+
+.diagram-label {
+  box-shadow: 0 12px 30px rgb(0 0 0 / 24%);
+}
+
+.principle-card {
+  box-shadow: 0 12px 32px rgb(0 0 0 / 16%);
+}
+
+.principle-card h3,
+.scenario-item h3 {
+  color: #fff8ff;
+}
+
+.card-number,
+.card-description,
+.scenario-item p {
+  color: #e1d5ed;
+}
+
+.card-question,
+.card-integridad .card-question,
+.card-disponibilidad .card-question {
+  color: #d6b5ff;
+}
+
+.card-integridad .card-question {
+  color: #a9e8ff;
+}
+
+.card-disponibilidad .card-question {
+  color: #ffc18e;
+}
+
+.example-chip {
+  background: #49345f;
+  color: #f2eaff;
+}
+
+.card-integridad .example-chip {
+  background: #25485b;
+  color: #e2f7ff;
+}
+
+.card-disponibilidad .example-chip {
+  background: #60402f;
+  color: #fff0e1;
+}
+
+.example-chip span {
+  color: #d6b5ff;
+}
+
+.card-integridad .example-chip span {
+  color: #a9e8ff;
+}
+
+.card-disponibilidad .example-chip span {
+  color: #ffc18e;
+}
+
+.scenario-item {
+  border-bottom-color: #59466b;
+}
+
+.scenario-takeaway {
+  color: #e2caff;
+}
+
+.scenario-check {
+  background: linear-gradient(135deg, #694ba0, #28637b, #925b37);
+  color: #fff;
+}
+
+.card-number,
+.scenario-icon,
+.habit-number {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.card-number {
+  color: #d6b5ff;
+}
+
+.scenario-icon {
+  font-size: 14px;
+}
+
+.habit-number {
+  color: #bdeeff;
+}
+
+.diagram-caption {
+  background: linear-gradient(90deg, #c4a0ff 0%, #63d8ff 52%, #ffad65 100%);
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 0 7px rgb(180 125 255 / 45%));
+}
+
+.scenario-section {
+  background: linear-gradient(120deg, #342047 0%, #20394e 55%, #50322e 100%);
+}
+
+.scenario-copy h2 {
+  color: #fff8ff;
+}
+
+.scenario-copy .eyebrow {
+  color: #e2caff;
+}
+
+.scenario-copy > p:last-child {
+  color: #e1d5ed;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -1060,6 +1250,15 @@
   color: #9ddfff;
 }
 
+.center-shield {
+  height: 56px;
+  stroke: url("#triangle-gradient");
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.5;
+  width: 56px;
+}
+
 .diagram-label {
   border-color: #e6ddf3;
   border-radius: 9px;
@@ -1105,7 +1304,8 @@
 
 .diagram-caption {
   color: #716486;
-  font-size: 10px;
+  font-size: 14px;
+  letter-spacing: 2px;
 }
 
 .section-heading h2,
@@ -1303,6 +1503,11 @@
     padding: 7px 8px;
   }
 
+  .diagram-caption {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+  }
+
   .label-integrity {
     left: 1%;
   }
@@ -1342,4 +1547,99 @@
   .memory-line p {
     font-size: 11px;
   }
+}
+
+.scenario-section {
+  background: linear-gradient(120deg, #342047 0%, #20394e 55%, #50322e 100%);
+}
+
+.scenario-copy h2 {
+  color: #fff8ff;
+}
+
+.scenario-copy .eyebrow {
+  color: #e2caff;
+}
+
+.scenario-copy > p:last-child {
+  color: #e1d5ed;
+}
+
+.diagram-label,
+.principle-card,
+.scenario-list {
+  background: #30223f;
+  border-color: #59466b;
+  color: #fff8ff;
+}
+
+.diagram-label {
+  box-shadow: 0 12px 30px rgb(0 0 0 / 24%);
+}
+
+.principle-card {
+  box-shadow: 0 12px 32px rgb(0 0 0 / 16%);
+}
+
+.principle-card h3,
+.scenario-item h3 {
+  color: #fff8ff;
+}
+
+.card-number,
+.card-description,
+.scenario-item p {
+  color: #e1d5ed;
+}
+
+.card-question {
+  color: #d6b5ff;
+}
+
+.card-integridad .card-question {
+  color: #a9e8ff;
+}
+
+.card-disponibilidad .card-question {
+  color: #ffc18e;
+}
+
+.example-chip {
+  background: #49345f;
+  color: #f2eaff;
+}
+
+.card-integridad .example-chip {
+  background: #25485b;
+  color: #e2f7ff;
+}
+
+.card-disponibilidad .example-chip {
+  background: #60402f;
+  color: #fff0e1;
+}
+
+.example-chip span {
+  color: #d6b5ff;
+}
+
+.card-integridad .example-chip span {
+  color: #a9e8ff;
+}
+
+.card-disponibilidad .example-chip span {
+  color: #ffc18e;
+}
+
+.scenario-item {
+  border-bottom-color: #59466b;
+}
+
+.scenario-takeaway {
+  color: #e2caff;
+}
+
+.scenario-check {
+  background: linear-gradient(135deg, #694ba0, #28637b, #925b37);
+  color: #fff;
 }
