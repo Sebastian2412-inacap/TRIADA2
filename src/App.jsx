@@ -54,12 +54,11 @@ function App() {
     <>
       <header className="topbar">
         <a className="brand" href="#inicio" aria-label="Tríada, ir al inicio">
-          <span className="brand-mark" aria-hidden="true">
-            <span />
-            <span />
-            <span />
-          </span>
-          <span>en claro</span>
+          <svg className="brand-shield" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <path d="M24 4 40 10v12c0 10-6.5 17-16 22C14.5 39 8 32 8 22V10l16-6Z" />
+            <path d="m17 24 5 5 10-11" />
+            <path className="shield-spark" d="m35 34 1.5 3 3 1.5-3 1.5-1.5 3-1.5-3-3-1.5 3-1.5 1.5-3Z" />
+          </svg>
         </a>
         <nav aria-label="Navegación principal">
           <a href="#principios">Los 3 principios</a>
@@ -249,9 +248,12 @@ function App() {
       </main>
 
       <footer className="footer">
-        <a className="brand footer-brand" href="#inicio">
-          <span className="brand-mark" aria-hidden="true"><span /><span /><span /></span>
-          <span>en claro</span>
+        <a className="brand footer-brand" href="#inicio" aria-label="Tríada, volver al inicio">
+          <svg className="brand-shield" viewBox="0 0 48 48" fill="none" aria-hidden="true">
+            <path d="M24 4 40 10v12c0 10-6.5 17-16 22C14.5 39 8 32 8 22V10l16-6Z" />
+            <path d="m17 24 5 5 10-11" />
+            <path className="shield-spark" d="m35 34 1.5 3 3 1.5-3 1.5-1.5 3-1.5-3-3-1.5 3-1.5 1.5-3Z" />
+          </svg>
         </a>
         <p>Entender la seguridad también es parte de protegerte.</p>
         <a className="back-top" href="#inicio">Volver arriba ↑</a>
