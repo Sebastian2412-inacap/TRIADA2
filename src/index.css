@@ -1,0 +1,56 @@
+:root {
+  font-family: "Pixelify Sans", "Courier New", monospace;
+  color: #241a37;
+  background: #fbf9ff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --ink: #241a37;
+  --muted: #625c70;
+  --green: #b7e8ff;
+  --green-dark: #6941b8;
+  --line: #e9e2f4;
+  --soft: #f3edfc;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
+}
+
+body {
+  background:
+    radial-gradient(ellipse at 12% 7%, rgb(174 72 242 / 19%), transparent 34%),
+    radial-gradient(ellipse at 87% 17%, rgb(255 78 147 / 18%), transparent 33%),
+    radial-gradient(ellipse at 18% 48%, rgb(255 119 116 / 13%), transparent 35%),
+    radial-gradient(ellipse at 90% 73%, rgb(255 156 65 / 17%), transparent 36%),
+    linear-gradient(125deg, #f6eaff 0%, #fff0f5 43%, #fff0de 100%);
+  background-attachment: fixed;
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible {
+  border-radius: 4px;
+  outline: 3px solid #38bdf8;
+  outline-offset: 4px;
+}
+
+::selection {
+  background: #d9c8ff;
+  color: #241a37;
+}
